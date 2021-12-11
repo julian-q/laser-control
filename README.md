@@ -29,7 +29,7 @@ The role of the PID controller is to take this error e(t) and produce a control 
 
 Given the error signal e(t), the produced control signal u(t) depends on a Proportional, Integral, and a Derivative term, hence the term PID controller. These terms are each weighted by a certain value so you can tune how much they influence the corrective action. Formally, u(t) is given by
 
-![](https://wikimedia.org/api/rest_v1/media/math/render/svg/4037a97c29467502e1dc6b4ed81d561b661a2eb1)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/PID_en.svg/2880px-PID_en.svg.png)
 
 where Kp, Ki, Kd are non-negative constants which can be tuned as desired.
 
