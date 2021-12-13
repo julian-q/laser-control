@@ -16,7 +16,7 @@ We want to stabilize the power output of the TiSapph beam. We can control the ef
 
 The idea is to stabilize the power of the beam using a PID controller, modeled below. We will measure the power of the transmitted laser light using a photo detector, whose voltage output y(t) is measured by the Red Pitaya. This is then compared to a setpoint voltage r(t), which is a constant voltage value determined by the desired power output of the beam. Their difference e(t) = r(t) - y(t) is called the error.
 
-![](https://upload.wikimedia.org/wikipedia/commons/2/2d/PID.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/PID_en.svg/2880px-PID_en.svg.png)
 
 The role of the PID controller is to take this error e(t) and produce a control signal u(t). This control signal is an instruction to the "plant or process" which has influence over the current measured voltage y(t) from the photo detector. In our case, the "plant or process" is the rotation mount and u(t) is the angle by which to rotate it in order to correct y(t) so that it is closer to the desired setpoint voltage r(t). This process is repeated over and over again:
 
@@ -29,7 +29,7 @@ The role of the PID controller is to take this error e(t) and produce a control 
 
 Given the error signal e(t), the produced control signal u(t) depends on a Proportional, Integral, and a Derivative term, hence the term PID controller. These terms are each weighted by a certain value so you can tune how much they influence the corrective action. Formally, u(t) is given by
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/PID_en.svg/2880px-PID_en.svg.png)
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/4037a97c29467502e1dc6b4ed81d561b661a2eb1)
 
 where Kp, Ki, Kd are non-negative constants which can be tuned as desired.
 
