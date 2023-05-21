@@ -12,7 +12,7 @@ We want to stabilize the power output of the TiSapph beam. We can control the ef
 4. Polarizing beam splitter cube
 5. Photo detector
 
-## Feeback loop
+## Feedback loop
 
 The idea is to stabilize the power of the beam using a PID controller, modeled below. We will measure the power of the transmitted laser light using a photo detector, whose voltage output y(t) is measured by the Red Pitaya. This is then compared to a setpoint voltage r(t), which is a constant voltage value determined by the desired power output of the beam. Their difference e(t) = r(t) - y(t) is called the error.
 
