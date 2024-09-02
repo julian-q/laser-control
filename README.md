@@ -1,8 +1,10 @@
 # laser-control
+> copied from our lab's wiki -- sorry if the language is a little weird:)
+> - julian
 
 ## Goal
 
-We want to stabilize the power output of the TiSapph beam. We can control the effective power of the beam using a waveplate and a polarizing beamsplitter cube. By manually rotating this waveplate, we can rotate the polarization of the light, which then influences how much of the light is transmitted versus reflected once reaching the cube. The light which is transmitted is to be used throughout the rest of the optics table, while the reflected light is sent to a beam dump. The problem is that the power output of the laser varies a lot over time, meaning that the waveplate must be manually adjusted often. Our goal is to automate the adjustment of the waveplate by using a motorized rotation mount that can be controlled by a computer, such as a Red Pitaya.
+To stabilize the power output of the TiSapph beam. We can control the effective power of the beam using a waveplate and a polarizing beamsplitter cube. By manually rotating this waveplate, we can rotate the polarization of the light, which then influences how much of the light is transmitted versus reflected once reaching the cube. The light which is transmitted is to be used throughout the rest of the optics table, while the reflected light is sent to a beam dump. The problem is that the power output of the laser varies a lot over time, meaning that the waveplate must be manually adjusted often. Our goal is to automate the adjustment of the waveplate by using a motorized rotation mount that can be controlled by a computer, such as a Red Pitaya.
 
 ## Materials
 
