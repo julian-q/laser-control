@@ -1,6 +1,5 @@
 # laser-control
 > copied from our lab's wiki -- sorry if the language is a little weird:)
-> - julian
 
 ## Goal
 
